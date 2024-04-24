@@ -5,5 +5,5 @@ let passport = {
 
 let passport_new = {...passport}
 passport_new.name = "Ivan"
-console.log(passport);
-console.log(passport_new);
+console.log(passport.name);
+console.log(passport_new.name);
